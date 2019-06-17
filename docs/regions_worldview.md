@@ -7,6 +7,8 @@ The rest of the Gulf of Mexico coast was divided into similarly-sized regions by
 
 ## Regions from west to east: 
 
+![screencap](https://github.com/7yl4r/data-docs/blob/master/docs/worldview-regions.png?raw=true)
+
 I broke up Texas at Corpus Christi-Galveston (SW Texas), Galveston-Port Arthur (Central Texas), and Port Arthur-Louisiana (NE Texas). 
 Louisiana was broken up at Lafayette (W Louisiana and E Louisiana). 
 Mississippi and Alabama are only one polygon each. 
