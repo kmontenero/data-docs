@@ -9,10 +9,24 @@ The rest of the Gulf of Mexico coast was divided into similarly-sized regions by
 
 ![screencap](https://github.com/7yl4r/data-docs/blob/master/docs/worldview-regions.png?raw=true)
 
-I broke up Texas at Corpus Christi-Galveston (SW Texas), Galveston-Port Arthur (Central Texas), and Port Arthur-Louisiana (NE Texas). 
-Louisiana was broken up at Lafayette (W Louisiana and E Louisiana). 
-Mississippi and Alabama are only one polygon each. 
-I followed the FCMaP guidelines for Florida: Alabama-Tallahassee(Florida Panhandle), Tallahassee-Hernando Beach (Big Bend), Hernando Beach-Monroe County (SW Florida), Monroe County-Miami (Monroe), Miami-Melbourne (SE Florida), and Melbourne-rest of the images (NE Florida).
+### Texas 
+* texas_sw: Corpus Christi->Galveston 
+* texas_central: Galveston->Port Arthur
+* texas_ne: Port Arthur->Louisiana
+### Louisiana split at Lafayette 
+* louisiana_w 
+* louisiana_e
+### Mississippi only one polygon
+* mississippi
+### Alabama only one polygon
+* alabama
+### FCMaP guidelines for Florida
+* panhandle: Alabama->Tallahassee
+* big_bend: Tallahassee->Hernando Beach 
+* fl_sw: Hernando Beach->Monroe County 
+* monroe: Monroe County->Miami 
+* fl_se: Miami->Melbourne 
+* ne_fl: Melbourne->GA
 
 Each area has two layers (ex. Alabama and AL). 
 The label with the state abbreviation (AL) is just the polygon. 
