@@ -1,7 +1,23 @@
+## how to access images from windows?
+    - `/home1/datashare/regions/{region_name}/{product_name}`
+## where to put images on the server?
+    - `/srv/imars-objects/{region_name}/{product_name}`
+
+* `region_name`s:
+    - see [github/USF-IMARS/data-docs](https://github.com/USF-IMARS/data-docs/blob/master/docs/worldview/regions_worldview.md)
+    
+* `product_name`s:
+    - `soalchi_r_rs_wv2`  (Rrs)
+    - `soalchi_tif_rrs_wv2`
+    - `soalchi_tif_classification`
+
+
+## ingest
 Worldview files are ingested from Digital Globe and the Polar Geospatial center.
 Images are broken out into regions within imars-objects.
 An overview of these areas for the Gulf of Mexico is given in regions_worldview.md.
 
+## specific locations
 Worldview files are split by satellite: WV02 and WV03.
 Imagery can be found in multiple places:
 * `{region}/zip_wv2_ftp_ingest` - imagery "bundles" with shape, xml, and ntf files.
