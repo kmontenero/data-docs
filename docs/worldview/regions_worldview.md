@@ -21,12 +21,12 @@ The rest of the Gulf of Mexico coast was divided into similarly-sized regions by
 ### Alabama only one polygon
 * alabama
 ### FCMaP guidelines for Florida
-* panhandle: Alabama->Tallahassee
-* big_bend: Tallahassee->Hernando Beach 
+* fl_panhandle: Alabama->Tallahassee
+* fl_big_bend: Tallahassee->Hernando Beach 
 * fl_sw: Hernando Beach->Monroe County 
-* monroe: Monroe County->Miami 
+* fl_monroe: Monroe County->Miami 
 * fl_se: Miami->Melbourne 
-* ne_fl: Melbourne->GA
+* fl_ne: Melbourne->GA
 
 Each area has two layers (ex. Alabama and AL). 
 The label with the state abbreviation (AL) is just the polygon. 
