@@ -1,5 +1,5 @@
 ## how to access images from windows?
-    - `/home1/datashare/regions/{region_name}/{product_name}`
+    - `\\lab_share\datashare\regions\{region_name}\{product_name}`
 ## where to put images on the server?
     - `/srv/imars-objects/{region_name}/{product_name}`
 
