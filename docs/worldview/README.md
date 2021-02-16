@@ -11,9 +11,11 @@
     - `soalchi_tif_rrs_wv2`
     - `soalchi_tif_classification`
 
+## licensing
+These images **cannot** be publicly shared. Please read the NextView license at [data-docs/worldview/NextView_License.pdf](https://github.com/USF-IMARS/data-docs/blob/master/docs/worldview/NextView_License_Information_Paper_20170503.pdf) for details.
 
 ## ingest
-Worldview files are ingested from Digital Globe and the Polar Geospatial center.
+Worldview files have been ingested from Digital Globe, the Polar Geospatial center, and the CAD4NASA program.
 Images are broken out into regions within imars-objects.
 An overview of these areas for the Gulf of Mexico is given in regions_worldview.md.
 
