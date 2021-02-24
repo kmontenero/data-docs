@@ -14,7 +14,20 @@ wv_cad4nasa_unzipped/15AUG22145912-M1BS-500395862010_01_P030
 ├── 15AUG22145912-M1BS-500395862010_01_P030.TIL
 ├── 15AUG22145912-M1BS-500395862010_01_P030.XML
 └── NEXTVIEW.TXT
-
 ```
 
 `NEXTVIEW.TXT` is the NextView License.
+
+
+### Ingest Steps
+
+```
+[root@thing1 rookery]# find unzip wv_cad4nasa_zip/ -name *.zip -exec unzip -n {} -d wv_cad4nasa_unzipped/ \;
+# permissions
+[root@thing1 rookery]# find wv_cad4nasa_unzipped/ -type d -exec chmod 750 {} \;
+[root@thing1 rookery]# find wv_cad4nasa_unzipped/ -type f -exec chmod 640 {} \;
+[root@thing1 rookery]# chown -R 29898:imars-common wv_cad4nasa_unzipped
+# mv files we want to separate dir
+[root@thing1 rookery]# find wv_cad4nasa_unzipped/ -name *-M1BS-* -name *.NTF -exec cp {} wv_all_m1bs_ntf_xml_only/. \;
+[root@thing1 rookery]# find wv_cad4nasa_unzipped/ -name *-M1BS-* -name *.XML -exec cp {} wv_all_m1bs_ntf_xml_only/. \; 
+```
