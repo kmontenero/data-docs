@@ -77,3 +77,15 @@ Shape files in the two `GIS_FILES` directories do differ.
 Binary files wv_maxar_unzipped/GIS_FILES/20JAN08150533-M1BS-013663600010_01_P001_PIXEL_SHAPE.dbf and wv_maxar_unzipped/013663600010_01_003/013663600010_01/GIS_FILES/20JAN08150533-M1BS-013663600010_01_P001_PIXEL_SHAPE.dbf differ
 ```
 TODO: how do they differ? which do we want?
+
+
+## ingest steps
+```
+[root@thing1 jobos]# find wv_maxar_zip/ -name *.zip -exec unzip -n {} -d wv_maxar_unzipped/ \;
+[root@thing1 jobos]# find wv_maxar_unzipped/ -type d -exec chmod 750 {} \;
+[root@thing1 jobos]# find wv_maxar_unzipped/ -type f -exec chmod 640 {} \;
+[root@thing1 jobos]# chown -R 29898:imars-common wv_maxar_unzipped/
+[root@thing1 jobos]# find wv_maxar_unzipped/ -name *-M1BS-* -name *.XML -exec cp {} wv_all_m1bs_ntf_xml_only/. \;
+[root@thing1 jobos]# find wv_maxar_unzipped/ -name *-M1BS-* -name *.NTF -exec cp {} wv_all_m1bs_ntf_xml_only/. \;
+
+```
