@@ -1,5 +1,10 @@
 Digital Elevation Model (DEM) files were produced as part of the 3d wetlands project.
 
+DEM data was uploaded to Google Earth Engine and can be accessed there.
+Please see additional documentation on this in [luislizcano/3D-wetlands-app](https://github.com/luislizcano/3D-wetlands-app).
+
+-------------------------------------------------------
+
 There are no same name tiles for all 5 states (TX, LA, MS, LA, and FL).
 
 # Filename Conventions
