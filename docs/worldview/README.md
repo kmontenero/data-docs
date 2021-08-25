@@ -1,3 +1,9 @@
+## GEE
+
+Some landcover classifcation worldview data from the 3d wetlands project along with DEM data was uploaded to Google Earth Engine and can be accessed there.
+Please see additional documentation on this in [luislizcano/3D-wetlands-app](https://github.com/luislizcano/3D-wetlands-app).
+
+
 ## how to access images from windows?
     - `\\lab_share\datashare\regions\{region_name}\{product_name}`
 ## where to put images on the server?
