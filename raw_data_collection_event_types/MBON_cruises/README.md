@@ -2,6 +2,36 @@
 MBON cruises taken in S FL starting in the 2016 and collections ongoing as of 2023.
 2015 was a trial run, but funding began for the cruises in 2016.
 
+Digna and Sebastian have created a master spreadsheet to track this data.
+
+Data from 2016-2017 HPLC
+One cruise from 2015
+Duplicate from 2016
+All from 2021-2023
+Sebastian and Enrique 2015-2016 samples are missing.
+
+HPLC from 2016 - 2020 plus on cruise from 2021 has been analyzed
+
+1 cruise from 2015, we have samples from. 1 cruise from 2016 are only duplicates, the rest we have 2021 - 2023 in samples
+
+## HPLC
+### status (updated 2023-03)
+HPLC sampled since 2015.
+We have HPLC data for many cruises.
+HPLC data has been sent to NASA SEABASS only from one cruise to 2016.
+
+Sebastian found issues in HPLC metadata; Digna is working to clean it up and send to NASA SEABASS.
+
+## Phytoplankton
+MBON phytoplankton pigment data was corrected using R.
+
+## eDNA
+Carolina and Anni in process of submitting eDNA occurrence data to OBIS (2023-03).
+Luke Thompson and Enrique in Miami watching over the project.
+Processed using OTU-based methods.
+DwC data will be submitted using occurrence core with the DNA extension.
+Carolina + Anni will be meeting weekly to push it forward.
+
 # Ship Info
 Most cruises are done on the R/V Walton Smith, two cruises used R/V Savannah, and one cruise used the R/V Weatherbird II.
  
