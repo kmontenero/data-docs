@@ -16,7 +16,13 @@ Sebastian and Enrique 2015-2016 samples are missing.
 
 HPLC from 2016 - 2020 plus on cruise from 2021 has been analyzed.
 
-1 cruise from 2015, we have samples from. 1 cruise from 2016 are only duplicates, the rest we have 2021 - 2023 in samples
+1 cruise from 2015, we have samples from. 
+1 cruise from 2016 are only duplicates, the rest we have 2021 - 2023 in samples
+
+Chris Kelble has data from before 2015.
+Surface & CTD going back to 1998.
+
+CAS data is processed through collab w/ GCOOS.
 
 # Data
 Much of this data is hosted on box.com; the effort of putting things there was done by Sebastian.
@@ -45,6 +51,7 @@ Data collected includes :
 * BB3
   * raw count data 
   * contact **Herardo** if he wants to process
+* TODO: add missing data mentioned by Chris Kelble and Kelly Montenero here
 
 For more information you can contact:
 * Sebastian
