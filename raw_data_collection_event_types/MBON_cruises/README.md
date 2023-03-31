@@ -98,6 +98,9 @@ David (Dave) English is the expert at AOML to figure it all out, the plan is to 
 Sebastian gives the data to Enrique and he puts it in a google drive.
 So long as AOML is taking scans then IMaRS does not need to.
 
+## chlorophyll
+In the box.com cruise main folder with name like `{year}_{month}_WS_abs.xlsx`.
+
 # Ship Info
 Most cruises are done on the R/V Walton Smith, two cruises used R/V Savannah, and one cruise used the R/V Weatherbird II.
  
