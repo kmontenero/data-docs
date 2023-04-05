@@ -1,6 +1,6 @@
 # IMaRS MBON cruises
-MBON cruises taken in S FL starting in the 2016 and collections ongoing as of 2023.
-2015 was a trial run, but funding began for the cruises in 2016.
+MBON started joining AOML's South Florida Ecosystem restoration research cruises taken in S FL starting in the 2016 and collections are ongoing as of 2023.
+2015 was a trial run, but MBON's funding began for the cruises in 2016.
 
 Digna and Sebastian have created master spreadsheets to track this data that is stored in USF's box.com under mbon_imars_cruises.
 Sebastian's spreadsheet is programmatically generated and focuses in on a subset of the data.
@@ -19,7 +19,7 @@ HPLC from 2016 - 2020 plus on cruise from 2021 has been analyzed.
 1 cruise from 2015, we have samples from. 
 1 cruise from 2016 are only duplicates, the rest we have 2021 - 2023 in samples
 
-Chris Kelble has data from before 2015.
+Chris Kelble noted that AOML's data from the beginning of the cruise projectis available from 1998 on.
 Surface & CTD going back to 1998.
 
 CAS data is processed through collab w/ GCOOS.
@@ -100,6 +100,7 @@ So long as AOML is taking scans then IMaRS does not need to.
 
 ## chlorophyll
 In the box.com cruise main folder with name like `{year}_{month}_WS_abs.xlsx`.
+AOML partners note that they also take chl a samples at every station on every cruise, analyze the samples upon returning to the lab, and have updated continuous data on this parameter.
 
 # Ship Info
 Most cruises are done on the R/V Walton Smith, two cruises used R/V Savannah, and one cruise used the R/V Weatherbird II.
